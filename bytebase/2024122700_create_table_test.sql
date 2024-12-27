@@ -1,4 +1,4 @@
 CREATE TABLE "snail_job"."t2024" (
-                                  "id" integer PRIMARY KEY,
-                                  "name" text
+                                     "id" integer NOT NULL PRIMARY KEY,
+                                     "name" text NOT NULL
 );
